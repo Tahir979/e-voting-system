@@ -2,7 +2,7 @@
 
 > This program has been prepared for student societies which is established within Hacettepe University to organize their elections online. Firstly, excel file which is included people who will vote is loaded to the system, then, verification codes that they will be asked to write down when they will vote will be sent. After the candidates have introduced themselves, everyone will submit their verification code and the candidate name they wish to vote for in the form (Google Form) sent to them, and then, this vote excel will be uploaded to the system. After that too, the votes will be counted.
 
-> For an ideal view, run at 1920 * 1080 resolution and 100% scale settings. The program works with [access database](https://www.microsoft.com/en-us/download/details.aspx?id=13255) and [.NET Framework 4.7.2+](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472), download these if it necessary.
+> For an ideal view, run at 1920 * 1080 resolution and 100% scale settings. The program works with [access database](https://www.microsoft.com/en-us/download/details.aspx?id=13255) and [.NET Framework 4.7.2+](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472), download these if necessary.
 
 > - [**Sample Usage Video**](https://drive.google.com/file/d/1JHKNcc4tQnhTHHIA8YiSjpD4AYZLGRov/view?usp=sharing)
 
