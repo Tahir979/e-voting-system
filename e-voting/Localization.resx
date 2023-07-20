@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addcode" xml:space="preserve">
+    <value>insert into kod(isim,mail,kod) values (@isim,@mail,@kod)</value>
+  </data>
+  <data name="addtile3" xml:space="preserve">
+    <value>insert into tile3(isim,kod,oy) values (@isim,@kod,@oy)</value>
+  </data>
+  <data name="addveri" xml:space="preserve">
+    <value>insert into veri(isim,mail) values (@isim,@mail)</value>
+  </data>
+  <data name="btn_getcode" xml:space="preserve">
+    <value>Alınan Doğrulama Kod. Getir</value>
+  </data>
+  <data name="btn_getmaillist" xml:space="preserve">
+    <value>Oy Vermek İsteyenleri Getir</value>
+  </data>
+  <data name="btn_letsvote" xml:space="preserve">
+    <value>Hadi Seçim Zamanı!</value>
+  </data>
+  <data name="btn_newvotecount" xml:space="preserve">
+    <value>Oy Sayımı Oluştur</value>
+  </data>
+  <data name="btn_sendcode" xml:space="preserve">
+    <value>Doğrulama Kodlarını Gönder</value>
+  </data>
+  <data name="btn_showinfo" xml:space="preserve">
+    <value>Bilgileri Göster</value>
+  </data>
+  <data name="candidates" xml:space="preserve">
+    <value>Adaylar</value>
+  </data>
+  <data name="changingaddress_btn_acceptnewaddress" xml:space="preserve">
+    <value>Yeni Adresi Onaylıyorum</value>
+  </data>
+  <data name="changingaddress_btn_sendingcode" xml:space="preserve">
+    <value>Adreste Düzenleme Yapabilmek için Doğrulama Kodu Gönder</value>
+  </data>
+  <data name="changingaddress_btn_verifycode" xml:space="preserve">
+    <value>Kodu Onaylıyorum</value>
+  </data>
+  <data name="changingaddress_lbl_title" xml:space="preserve">
+    <value>Mevcut Adres</value>
+  </data>
+  <data name="changingaddress_lbl_titleaddress" xml:space="preserve">
+    <value>Mail Adresi:</value>
+  </data>
+  <data name="changingaddress_lbl_titlecode" xml:space="preserve">
+    <value>Kod:</value>
+  </data>
+  <data name="checking" xml:space="preserve">
+    <value>Kontrol ediliyor...</value>
+  </data>
+  <data name="code" xml:space="preserve">
+    <value>kod</value>
+  </data>
+  <data name="codeselect" xml:space="preserve">
+    <value>Select * from kod</value>
+  </data>
+  <data name="code_" xml:space="preserve">
+    <value>@kod</value>
+  </data>
+  <data name="controlofcode" xml:space="preserve">
+    <value>Doğrulama Kodu Gönderimi Kontrolü</value>
+  </data>
+  <data name="couldntfindmailaddress" xml:space="preserve">
+    <value>Hatalı mail adresi bulunamadı</value>
+  </data>
+  <data name="couldntfindvalidcode" xml:space="preserve">
+    <value>Hatalı doğrulama kodu bulunamadı</value>
+  </data>
+  <data name="deletemail" xml:space="preserve">
+    <value>delete from veri where mail=@mail</value>
+  </data>
+  <data name="deletetile3" xml:space="preserve">
+    <value>delete from tile3</value>
+  </data>
+  <data name="deleteveri" xml:space="preserve">
+    <value>delete from veri</value>
+  </data>
+  <data name="en" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="errormail" xml:space="preserve">
+    <value>Email gönderme işlemi başlatılmadı.</value>
+  </data>
+  <data name="errorprocess" xml:space="preserve">
+    <value>Başlatılmayan İşlem</value>
+  </data>
+  <data name="excelfilter" xml:space="preserve">
+    <value>Excel Dosyası |*.xlsx| Excel Dosyası|*.xls</value>
+  </data>
+  <data name="exceltitle" xml:space="preserve">
+    <value>Veri Excel'ini seçiniz...</value>
+  </data>
+  <data name="hideerrorlist" xml:space="preserve">
+    <value>Hatalı Mail Adreslerini Gizle</value>
+  </data>
+  <data name="hidenotvalidcode" xml:space="preserve">
+    <value>Hatalı Doğrulama Kodlarını Gizle</value>
+  </data>
+  <data name="hupt_title" xml:space="preserve">
+    <value>Hacettepe Üniversitesi Psikoloji Topluluğu (HÜPT)</value>
+  </data>
+  <data name="hupt_title2" xml:space="preserve">
+    <value>HÜPT - Oy Doğrulama Kodu</value>
+  </data>
+  <data name="hupt_title3" xml:space="preserve">
+    <value>Merhaba Sevgili </value>
+  </data>
+  <data name="hupt_title4" xml:space="preserve">
+    <value>HÜPT seçimlerinde oy kullanabilmeniz için gereken doğrulama kodu: </value>
+  </data>
+  <data name="hupt_title5" xml:space="preserve">
+    <value>Oy kullanacağınız için çok teşekkür ederiz.</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>Bilgilendirme</value>
+  </data>
+  <data name="lblinfoprogramme" xml:space="preserve">
+    <value>1. Program Hakkında Dikkat Edilmesi Gerekenler
+
+* Seçim güvenliği gereği bu programda sadece "....@hacettepe.edu.tr" ile oluşan mail adreslerine doğrulama kodu gönderilebilecektir. Gmail, Hotmail, Yahoo, Outloook gibi servis sağlayıcılarının mail adreslerine doğrulama kodu gönderilmeyecektir.
+
+* Oy kullanmak isteyen kişileri yüklerken excel dosyanızda sadece isim ve maillerin yer aldığı sütunların kalmasına ve başka herhangi bir sütun olmamasına dikkat ediniz. Ayrıca excelde ilk sütun(A) isimlere, ikinci sütun(B) maillere ayrılan sütun olmalıdır, çünkü verilerin sütunlardan bu şekilde çekilmesi için ayarlandı.
+
+*Bu program mail gönderimlerini "huptsecim@gmail.com" aracılığı ile yapmaktadır, eğer bu hesabın değiştirilmesi söz konusu ise lütfen Muhammet Tahir Tekatlı ile iletişime geçiniz: muhammettahirtekatli@gmail.com.
+
+
+2. Program Hakkında Bilinmesi Gerekenler
+
+* Program otomatik olarak hatalı olan mail adreslerini çıkartıcak ve size gösterecektir, eğer mail adresini yanlış yazan varsa bu sayede o kişiyle iletişime geçip mail adresini düzeltmesini isteyebilirsiniz.
+
+* Program otomatik olarak eğer bir mail adresini birden fazla kez girildiğini tespit ederse sadece bir tanesini sisteminde tutacaktır, yani oy vermek isteyen kişiler mail adreslerini birden fazla kez girseler bile birden fazla doğrulama kodu gönderimi söz konusu değildir.
+
+* Program bir doğrulama kodunun birden fazla kez girildiğini tespit ederse otomatik olarak sadece bir tanesini sisteminde tutacaktır, yani oy vermek isteyen kişiler doğrulama kodlarını birden fazla kez girseler bile birden fazla oy kullanımı söz konusu değildir.
+
+* Oy Sayımı, kapalı olan oyun üstüne tıklanarak açılması ve oyu alan kişiye +1 oy eklenmesi usulüne göre çalışmaktadır. Açılmış olan bir oya birden fazla kez tıklanarak söz konusu adaya birden fazla oy verilmesi durumu söz konusu değildir.
+
+--------
+
+Seçimi kazanan YK arkadaşlarımızı şimdiden tebrik eder, yeni görevlerinde başarılar dileriz!</value>
+  </data>
+  <data name="lblinfowithload" xml:space="preserve">
+    <value>Tüm Doğrulama Kodları Başarı Bir Şekilde Gönderildi :))</value>
+  </data>
+  <data name="lbl_editingaddress" xml:space="preserve">
+    <value>Kod Gönderen Mail Adresini Düzenlemek için Tıklayınız</value>
+  </data>
+  <data name="lbl_info" xml:space="preserve">
+    <value>"Kapalı oy açık sayım" usülüne göre seçim gerçekleştirileceği için burada herhangi bir şekilde bilgiler gösterilmeyecektir.
+
+Seçim sonuçlarına gelebilecek olan olası itirazlar için "Bilgileri Göster" butonuna basılarak oy verenlerin "kişisel bilgileri hariç" diğer bilgiler görülebilecektir.</value>
+  </data>
+  <data name="lbl_programinfo" xml:space="preserve">
+    <value>Program Hakkında Detaylı Bilgi Almak için Tıklayınız</value>
+  </data>
+  <data name="lbl_sendcodeinfo" xml:space="preserve">
+    <value>Mailler Gönderiliyor... Lütfen Programı Kapatmayınız...</value>
+  </data>
+  <data name="lbl_showerrorlist" xml:space="preserve">
+    <value>Hatalı Mail Adreslerini Göster</value>
+  </data>
+  <data name="lbl_shownotvalidcode" xml:space="preserve">
+    <value>Hatalı Doğrulama Kodlarını Gizle</value>
+  </data>
+  <data name="lbl_tier1" xml:space="preserve">
+    <value>1. Aşama - Doğrulama Kodu Gönderimleri</value>
+  </data>
+  <data name="lbl_tier2" xml:space="preserve">
+    <value>2. Aşama - Doğrulama Kodu Kontrolleri</value>
+  </data>
+  <data name="lbl_tier3" xml:space="preserve">
+    <value>3. Aşama - Oyların Sayımı</value>
+  </data>
+  <data name="lbl_totalpeople" xml:space="preserve">
+    <value>Kod Gönderilebilecek Toplam Kişi Sayısı:</value>
+  </data>
+  <data name="lbl_totalpeoplereceivecode" xml:space="preserve">
+    <value>Kod Alınan Toplam Kişi Sayısı:</value>
+  </data>
+  <data name="lbl_totalpeoplereceivecodewithvalid" xml:space="preserve">
+    <value>Geçerli Toplam Kişi Sayısı:</value>
+  </data>
+  <data name="lbl_totalvalidatepeople" xml:space="preserve">
+    <value>Geçerli Toplam Kişi Sayısı:</value>
+  </data>
+  <data name="lbl_votecount" xml:space="preserve">
+    <value>Toplam Oy Sayısı:</value>
+  </data>
+  <data name="lbl_votefinaltable" xml:space="preserve">
+    <value>Oylama Tablosu</value>
+  </data>
+  <data name="loading" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="lst_errorlist1" xml:space="preserve">
+    <value>Hatalı mail adresi bulunamadı</value>
+  </data>
+  <data name="lst_errorlist2" xml:space="preserve">
+    <value>1 adet hatalı mail adresi çıkarıldı</value>
+  </data>
+  <data name="lst_errorlist3" xml:space="preserve">
+    <value> adet hatalı mail adresleri çıkarıldı</value>
+  </data>
+  <data name="lst_notvalidcode1" xml:space="preserve">
+    <value>Hatalı doğrulama kodu bulunamadı</value>
+  </data>
+  <data name="lst_notvalidcode2" xml:space="preserve">
+    <value>1 adet hatalı doğrulama kodu çıkarıldı</value>
+  </data>
+  <data name="lst_notvalidcode3" xml:space="preserve">
+    <value> adet hatalı doğrulama kodu çıkarıldı</value>
+  </data>
+  <data name="mail" xml:space="preserve">
+    <value>mail</value>
+  </data>
+  <data name="mail_" xml:space="preserve">
+    <value>@mail</value>
+  </data>
+  <data name="mb_error" xml:space="preserve">
+    <value>Yüklemiş olduğunuz excelde herhangi bir veri bulunamadı ya da veriler içinden geçerli olan herhangi bir doğrulama kodu bulunamadı. Lütfen excel dosyanızın içinde verilerin olduğundan ve var olan doğrulama kodlarının doğru olduğundan emin olunuz ve ardından tekrar deneyiniz.</value>
+  </data>
+  <data name="mb_hata" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="messagecancel" xml:space="preserve">
+    <value>Herhangi bir işlem yapılmadı.</value>
+  </data>
+  <data name="messageconfirmcode" xml:space="preserve">
+    <value>Doğrulama Kodu Onayı</value>
+  </data>
+  <data name="messageerrorcode" xml:space="preserve">
+    <value>Hatalı doğrulama kodu girildi.</value>
+  </data>
+  <data name="messagemailto" xml:space="preserve">
+    <value>Adres Düzenleme</value>
+  </data>
+  <data name="messagesendingcode" xml:space="preserve">
+    <value>Doğrulama Kodu Gönderimi</value>
+  </data>
+  <data name="messagesuccesspart1" xml:space="preserve">
+    <value>Değişiklik başarıyla kaydedildi. Doğrulama kodları bundan sonra </value>
+  </data>
+  <data name="messagesuccesspart2" xml:space="preserve">
+    <value> adresinden gönderilecektir.</value>
+  </data>
+  <data name="messagesuccesssending" xml:space="preserve">
+    <value>İşlem Başarılı. Lütfen size gönderilen doğrulama kodunu aktif olmuş olan kutucuğa yazınız ve onaylayınız.</value>
+  </data>
+  <data name="messagesuccessverify" xml:space="preserve">
+    <value>İşlem Başarılı. Hesapta düzenleme işlemlerinizi yapmaya başlayabilirsiniz.</value>
+  </data>
+  <data name="messsagestart" xml:space="preserve">
+    <value>İşlemi Başlatmak İstediğinize Emin Misiniz?</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>isim</value>
+  </data>
+  <data name="name_" xml:space="preserve">
+    <value>@isim</value>
+  </data>
+  <data name="number" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="oledbconcode" xml:space="preserve">
+    <value>Provider=Microsoft.ACE.Oledb.12.0;Data Source=kod.accdb;Persist Security Info=True</value>
+  </data>
+  <data name="oledbcontile3" xml:space="preserve">
+    <value>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=tile3.accdb;Persist Security Info=True</value>
+  </data>
+  <data name="oledbconveri" xml:space="preserve">
+    <value>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=veri.accdb;Persist Security Info=True</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>Hazırlanıyor...</value>
+  </data>
+  <data name="selecttile3" xml:space="preserve">
+    <value>Select * from tile3</value>
+  </data>
+  <data name="selectveri" xml:space="preserve">
+    <value>Select * from veri</value>
+  </data>
+  <data name="sendingcodemessage" xml:space="preserve">
+    <value>Doğrulama kodlarını toplu bir şekilde e-mail göndermek istediğinize emin misiniz?</value>
+  </data>
+  <data name="showerrorlist" xml:space="preserve">
+    <value>Hatalı Mail Adreslerini Göster</value>
+  </data>
+  <data name="shownotvalidcode" xml:space="preserve">
+    <value>Hatalı Doğrulama Kodlarını Göster</value>
+  </data>
+  <data name="smtp" xml:space="preserve">
+    <value>smtp.gmail.com</value>
+  </data>
+  <data name="symbol" xml:space="preserve">
+    <value>-----------------------</value>
+  </data>
+  <data name="tenpercentage" xml:space="preserve">
+    <value>%10</value>
+  </data>
+  <data name="tile3" xml:space="preserve">
+    <value>tile3</value>
+  </data>
+  <data name="timeofcount" xml:space="preserve">
+    <value>Oylama Vakti</value>
+  </data>
+  <data name="tr" xml:space="preserve">
+    <value>tr-TR</value>
+  </data>
+  <data name="turkce" xml:space="preserve">
+    <value>TR</value>
+  </data>
+  <data name="verificationcode" xml:space="preserve">
+    <value>Doğrulama Kodu</value>
+  </data>
+  <data name="vote" xml:space="preserve">
+    <value>Oy</value>
+  </data>
+  <data name="votecountinfo" xml:space="preserve">
+    <value>Oy sayım işlemi tamamlanmıştır. Kazanan aday/adaylarımızı tebrik ederiz.</value>
+  </data>
+  <data name="votecounts" xml:space="preserve">
+    <value>Oy Sayıları</value>
+  </data>
+  <data name="voteinfo" xml:space="preserve">
+    <value>Oy Sayım Bitmiştir</value>
+  </data>
+  <data name="votemessage" xml:space="preserve">
+    <value>Yeni Oy Sayımı için program hazır.</value>
+  </data>
+  <data name="votes" xml:space="preserve">
+    <value>Oylar</value>
+  </data>
+  <data name="votetime" xml:space="preserve">
+    <value>Oylar Başarılı Bir Şekilde Sisteme Alınmıştır. Oy Sayım İşlemine Geçebiliriz.</value>
+  </data>
+  <data name="vote_" xml:space="preserve">
+    <value>@oy</value>
+  </data>
+  <data name="wordname" xml:space="preserve">
+    <value>Sayfa Adı</value>
+  </data>
+  <data name="_programmeinfo" xml:space="preserve">
+    <value>Program Hakkında</value>
+  </data>
+</root>

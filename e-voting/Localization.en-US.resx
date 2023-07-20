@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addcode" xml:space="preserve">
+    <value>insert into kod(isim,mail,kod) values (@isim,@mail,@kod)</value>
+  </data>
+  <data name="addtile3" xml:space="preserve">
+    <value>insert into tile3(isim,kod,oy) values (@isim,@kod,@oy)</value>
+  </data>
+  <data name="addveri" xml:space="preserve">
+    <value>insert into veri(isim,mail) values (@isim,@mail)</value>
+  </data>
+  <data name="btn_getcode" xml:space="preserve">
+    <value>Get Received Veri. Code</value>
+  </data>
+  <data name="btn_getmaillist" xml:space="preserve">
+    <value>Bring People Who Want to Vote</value>
+  </data>
+  <data name="btn_letsvote" xml:space="preserve">
+    <value>Let's choose!</value>
+  </data>
+  <data name="btn_newvotecount" xml:space="preserve">
+    <value>Create Vote Count</value>
+  </data>
+  <data name="btn_sendcode" xml:space="preserve">
+    <value>Send Verification Codes</value>
+  </data>
+  <data name="btn_showinfo" xml:space="preserve">
+    <value>Show Information</value>
+  </data>
+  <data name="candidates" xml:space="preserve">
+    <value>Candidates</value>
+  </data>
+  <data name="changingaddress_btn_acceptnewaddress" xml:space="preserve">
+    <value>Confirm New Address</value>
+  </data>
+  <data name="changingaddress_btn_sendingcode" xml:space="preserve">
+    <value>Send Verification Code to Edit the Address</value>
+  </data>
+  <data name="changingaddress_btn_verifycode" xml:space="preserve">
+    <value>Confirm the Code</value>
+  </data>
+  <data name="changingaddress_lbl_title" xml:space="preserve">
+    <value>Current Address</value>
+  </data>
+  <data name="changingaddress_lbl_titleaddress" xml:space="preserve">
+    <value>Mail Address:</value>
+  </data>
+  <data name="changingaddress_lbl_titlecode" xml:space="preserve">
+    <value>Code:</value>
+  </data>
+  <data name="checking" xml:space="preserve">
+    <value>Checking...</value>
+  </data>
+  <data name="code" xml:space="preserve">
+    <value>kod</value>
+  </data>
+  <data name="codeselect" xml:space="preserve">
+    <value>Select * from kod</value>
+  </data>
+  <data name="code_" xml:space="preserve">
+    <value>@kod</value>
+  </data>
+  <data name="controlofcode" xml:space="preserve">
+    <value>Verification Code Sending Control</value>
+  </data>
+  <data name="couldntfindmailaddress" xml:space="preserve">
+    <value>Incorrect mail address not found</value>
+  </data>
+  <data name="couldntfindvalidcode" xml:space="preserve">
+    <value>Incorrect verification code not found</value>
+  </data>
+  <data name="deletemail" xml:space="preserve">
+    <value>delete from veri where mail=@mail</value>
+  </data>
+  <data name="deletetile3" xml:space="preserve">
+    <value>delete from tile3</value>
+  </data>
+  <data name="deleteveri" xml:space="preserve">
+    <value>delete from veri</value>
+  </data>
+  <data name="en" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="errormail" xml:space="preserve">
+    <value>The email sending process has not started.</value>
+  </data>
+  <data name="errorprocess" xml:space="preserve">
+    <value>Uninitiated Process</value>
+  </data>
+  <data name="excelfilter" xml:space="preserve">
+    <value>Excel Dosyası |*.xlsx| Excel Dosyası|*.xls</value>
+  </data>
+  <data name="exceltitle" xml:space="preserve">
+    <value>Select Data Excel...</value>
+  </data>
+  <data name="hideerrorlist" xml:space="preserve">
+    <value>Hide Incorrect Mail Addresses</value>
+  </data>
+  <data name="hidenotvalidcode" xml:space="preserve">
+    <value>Hide Incorrect Verification Codes</value>
+  </data>
+  <data name="hupt_title" xml:space="preserve">
+    <value>Hacettepe Üniversitesi Psikoloji Topluluğu (HÜPT)</value>
+  </data>
+  <data name="hupt_title2" xml:space="preserve">
+    <value>HUPT - Vote Verification Code</value>
+  </data>
+  <data name="hupt_title3" xml:space="preserve">
+    <value>Hello Dear</value>
+  </data>
+  <data name="hupt_title4" xml:space="preserve">
+    <value>The verification code you need to vote in the HUPT elections:</value>
+  </data>
+  <data name="hupt_title5" xml:space="preserve">
+    <value>Thank you very much for voting.</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="lblinfoprogramme" xml:space="preserve">
+    <value>1. Things to Consider About the Program
+
+* For election security reasons, this program will only be able to send verification codes to e-mail addresses with "....@hacettepe.edu.tr". Verification codes will not be sent to e-mail addresses of service providers such as Gmail, Hotmail, Yahoo, Outloook.
+
+* When uploading the people who want to vote, make sure that only the columns with names and e-mails remain in your excel file and that there are no other columns. Also, the first column (A) should be the column for names and the second column (B) should be the column for mails, because it is set to pull the data from the columns in this way.
+
+*This program sends e-mails via "huptsecim@gmail.com", if you want to change this account, please contact Muhammet Tahir Tekatlı: muhammettahirtekatli@gmail.com.
+
+
+2. Things to Know About the Program
+
+* The program will automatically extract the incorrect e-mail addresses and show them to you, so if someone has entered their e-mail address incorrectly, you can contact that person and ask them to correct their e-mail address.
+
+* If the program automatically detects that an e-mail address has been entered more than once, it will only keep one of them in the system, so even if people who want to vote enter their e-mail addresses more than once, there is no question of sending more than one verification code.
+
+* If the program detects that a verification code has been entered more than once, it will automatically keep only one of them in the system, that is, even if people who want to vote enter their verification codes more than once, there is no use of more than one vote.
+
+* Vote Counting works by opening a closed vote by clicking on it and adding +1 vote to the person who received the vote. It is not possible to click on an opened vote more than once and cast more than one vote for the candidate in question.
+
+--------
+
+We would like to congratulate our Board members who won the election and wish them success in their new duties!</value>
+  </data>
+  <data name="lblinfowithload" xml:space="preserve">
+    <value>All Verification Codes Sent Successfully :))</value>
+  </data>
+  <data name="lbl_editingaddress" xml:space="preserve">
+    <value>Click to Edit the Code Sender Mail Address</value>
+  </data>
+  <data name="lbl_info" xml:space="preserve">
+    <value>Since the election will be held according to the "closed ballot open count" procedure, no information will be shown here in any way.
+
+For possible objections to the election results, by pressing the "Show Information" button, other information "except personal information" of the voters can be seen.</value>
+  </data>
+  <data name="lbl_programinfo" xml:space="preserve">
+    <value>Click to get detailed information about the program</value>
+  </data>
+  <data name="lbl_sendcodeinfo" xml:space="preserve">
+    <value>Sending Mail... Please do not close the program...</value>
+  </data>
+  <data name="lbl_showerrorlist" xml:space="preserve">
+    <value>Show Incorrect Mail Addresses</value>
+  </data>
+  <data name="lbl_shownotvalidcode" xml:space="preserve">
+    <value>Hide Incorrect Verification Codes</value>
+  </data>
+  <data name="lbl_tier1" xml:space="preserve">
+    <value>Phase 1 - Verification Code Submissions</value>
+  </data>
+  <data name="lbl_tier2" xml:space="preserve">
+    <value>Phase 2 - Verification Code Checks</value>
+  </data>
+  <data name="lbl_tier3" xml:space="preserve">
+    <value>Phase 3 - Vote Counting</value>
+  </data>
+  <data name="lbl_totalpeople" xml:space="preserve">
+    <value>Total Number of People to Send Code:</value>
+  </data>
+  <data name="lbl_totalpeoplereceivecode" xml:space="preserve">
+    <value>Total Number of People Received Code:</value>
+  </data>
+  <data name="lbl_totalpeoplereceivecodewithvalid" xml:space="preserve">
+    <value>Total Number of Valid People:</value>
+  </data>
+  <data name="lbl_totalvalidatepeople" xml:space="preserve">
+    <value>Total Number of Valid People:</value>
+  </data>
+  <data name="lbl_votecount" xml:space="preserve">
+    <value>Total Vote Count:</value>
+  </data>
+  <data name="lbl_votefinaltable" xml:space="preserve">
+    <value>Voting Table</value>
+  </data>
+  <data name="loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="lst_errorlist1" xml:space="preserve">
+    <value>Incorrect mail address not found</value>
+  </data>
+  <data name="lst_errorlist2" xml:space="preserve">
+    <value>1 incorrect e-mail address was extracted</value>
+  </data>
+  <data name="lst_errorlist3" xml:space="preserve">
+    <value> incorrect e-mail addresses extracted</value>
+  </data>
+  <data name="lst_notvalidcode1" xml:space="preserve">
+    <value>Incorrect verification code not found</value>
+  </data>
+  <data name="lst_notvalidcode2" xml:space="preserve">
+    <value>1 incorrect verification code was extracted</value>
+  </data>
+  <data name="lst_notvalidcode3" xml:space="preserve">
+    <value> incorrect verification code extracted</value>
+  </data>
+  <data name="mail" xml:space="preserve">
+    <value>mail</value>
+  </data>
+  <data name="mail_" xml:space="preserve">
+    <value>@mail</value>
+  </data>
+  <data name="mb_error" xml:space="preserve">
+    <value>No data was found in the excel file you uploaded or no valid validation code was found in the data. Please make sure that your excel file has data in it and that the existing validation codes are correct and then try again.</value>
+  </data>
+  <data name="mb_hata" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="messagecancel" xml:space="preserve">
+    <value>No action was taken.</value>
+  </data>
+  <data name="messageconfirmcode" xml:space="preserve">
+    <value>Verification Code Confirmation</value>
+  </data>
+  <data name="messageerrorcode" xml:space="preserve">
+    <value>Incorrect verification code entered.</value>
+  </data>
+  <data name="messagemailto" xml:space="preserve">
+    <value>Address Editing</value>
+  </data>
+  <data name="messagesendingcode" xml:space="preserve">
+    <value>Verification Code Sending</value>
+  </data>
+  <data name="messagesuccesspart1" xml:space="preserve">
+    <value>The change was successfully saved. Verification codes will now sent from </value>
+  </data>
+  <data name="messagesuccesspart2" xml:space="preserve">
+    <value> address.</value>
+  </data>
+  <data name="messagesuccesssending" xml:space="preserve">
+    <value>Operation Successful. Please enter the verification code sent to you in the activated box and confirm.</value>
+  </data>
+  <data name="messagesuccessverify" xml:space="preserve">
+    <value>Operation Successful. You can start editing your account.</value>
+  </data>
+  <data name="messsagestart" xml:space="preserve">
+    <value>Are you sure you want to start the process?</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>isim</value>
+  </data>
+  <data name="name_" xml:space="preserve">
+    <value>@isim</value>
+  </data>
+  <data name="number" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="oledbconcode" xml:space="preserve">
+    <value>Provider=Microsoft.ACE.Oledb.12.0;Data Source=kod.accdb;Persist Security Info=True</value>
+  </data>
+  <data name="oledbcontile3" xml:space="preserve">
+    <value>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=tile3.accdb;Persist Security Info=True</value>
+  </data>
+  <data name="oledbconveri" xml:space="preserve">
+    <value>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=veri.accdb;Persist Security Info=True</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>Preparing...</value>
+  </data>
+  <data name="selecttile3" xml:space="preserve">
+    <value>Select * from tile3</value>
+  </data>
+  <data name="selectveri" xml:space="preserve">
+    <value>Select * from veri</value>
+  </data>
+  <data name="sendingcodemessage" xml:space="preserve">
+    <value>Are you sure you want to send the verification codes in a bulk e-mail?</value>
+  </data>
+  <data name="showerrorlist" xml:space="preserve">
+    <value>Show Incorrect Mail Addresses</value>
+  </data>
+  <data name="shownotvalidcode" xml:space="preserve">
+    <value>Show Incorrect Verification Codes</value>
+  </data>
+  <data name="smtp" xml:space="preserve">
+    <value>smtp.gmail.com</value>
+  </data>
+  <data name="symbol" xml:space="preserve">
+    <value>-----------------------</value>
+  </data>
+  <data name="tenpercentage" xml:space="preserve">
+    <value>%10</value>
+  </data>
+  <data name="tile3" xml:space="preserve">
+    <value>tile3</value>
+  </data>
+  <data name="timeofcount" xml:space="preserve">
+    <value>Voting Time</value>
+  </data>
+  <data name="tr" xml:space="preserve">
+    <value>tr-TR</value>
+  </data>
+  <data name="turkce" xml:space="preserve">
+    <value>TR</value>
+  </data>
+  <data name="verificationcode" xml:space="preserve">
+    <value>Verification Code</value>
+  </data>
+  <data name="vote" xml:space="preserve">
+    <value>Oy</value>
+  </data>
+  <data name="votecountinfo" xml:space="preserve">
+    <value>The vote counting process has been completed. Congratulations to the winning candidate/candidates.</value>
+  </data>
+  <data name="votecounts" xml:space="preserve">
+    <value>Number of Votes</value>
+  </data>
+  <data name="voteinfo" xml:space="preserve">
+    <value>The vote count is over.</value>
+  </data>
+  <data name="votemessage" xml:space="preserve">
+    <value>The program for the new vote count is ready.</value>
+  </data>
+  <data name="votes" xml:space="preserve">
+    <value>Votes</value>
+  </data>
+  <data name="votetime" xml:space="preserve">
+    <value>The votes have been successfully entered into the system. We can start the vote counting process.</value>
+  </data>
+  <data name="vote_" xml:space="preserve">
+    <value>@oy</value>
+  </data>
+  <data name="wordname" xml:space="preserve">
+    <value>Page Name</value>
+  </data>
+  <data name="_programmeinfo" xml:space="preserve">
+    <value>About Program</value>
+  </data>
+</root>
