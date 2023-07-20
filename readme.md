@@ -33,4 +33,3 @@
 ![sendingcode](/e-voting/screenshot/sendingcode.png)
 ![checkingverificationcode](/e-voting/screenshot/checkingverificationcode.png)
 ![countingvote](/e-voting/screenshot/countingvote.png)
-dfgdfgfd
